@@ -10,7 +10,7 @@ from geoip import geolite2
 
 paramiko.util.log_to_file('demo_server.log')
 
-host_key = paramiko.RSAKey(filename='test_rsa.key')
+host_key = paramiko.RSAKey(filename='rsa.key')
 
 #Servidor
 class Server (paramiko.ServerInterface):
